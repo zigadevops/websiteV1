@@ -1,0 +1,164 @@
+.bg {
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  background-attachment: fixed !important;
+}
+
+.box1 {
+  height: 26rem !important;
+  transition: height 0.5s;
+}
+.box2 {
+  height: 20rem !important;
+  transition: height 0.5s;
+}
+.box3 {
+  height: 26rem !important;
+  transition: height 0.5s;
+}
+.box4 {
+  height: 26rem !important;
+  transition: height 0.5s;
+}
+.box5 {
+  height: 20rem !important;
+  transition: height 0.5s;
+}
+
+.ui {
+  height: 6rem;
+  overflow-y: hidden;
+  transition: height 0.5s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.paragraph img {
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+.paragraph div span {
+  font-size: 1.5rem;
+}
+
+.paragraph > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  background: #08263080;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0.8rem;
+  padding-top: 1rem;
+  width: 76rem;
+  margin-left: 2rem;
+}
+
+.ui {
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  background: #11999560;
+  border-radius: 1rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ui p {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-left: 2rem;
+  color: #69f6ca;
+}
+
+.icon {
+  margin-right: 2rem;
+  font-size: 3rem;
+  background-color: #082630;
+  padding: 0.3rem;
+  border-radius: 3rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.container > div {
+  width: 80rem;
+}
+
+.container > div > h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #69f6ca;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 855px) {
+  .ui {
+    width: 95% !important;
+    margin: auto !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .paragraph div {
+    width: 94% !important;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .container > div > h1 {
+    font-size: 3rem;
+  }
+  .ui {
+    height: 5rem;
+    transition: height 0.5s;
+    overflow-y: hidden;
+  }
+  .box1 {
+    height: 23.5rem !important;
+    transition: height 0.5s;
+  }
+
+  .box2 {
+    height: 18rem !important;
+    transition: height 0.5s;
+  }
+
+  .box3 {
+    height: 23.5rem !important;
+    transition: height 0.5s;
+  }
+
+  .box4 {
+    height: 23.5rem !important;
+    transition: height 0.5s;
+  }
+  .box5 {
+    height: 18rem !important;
+    transition: height 0.5s;
+  }
+
+  .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .ui p {
+    font-size: 1.5rem;
+  }
+
+  .paragraph div span {
+    font-size: 1.2rem;
+  }
+}

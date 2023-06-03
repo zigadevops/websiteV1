@@ -1,0 +1,129 @@
+.cards {
+  overflow: hidden;
+  display: flex;
+}
+
+.comingSoon {
+  width: 12rem;
+  height: 3rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+  opacity: 0;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.cards::-webkit-scrollbar {
+  display: none;
+}
+
+.cards {
+  margin-bottom: 10rem;
+}
+
+.cards img {
+  width: 40rem;
+}
+
+.cards img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.btnDiv {
+  padding-bottom: 15rem;
+}
+
+.btn {
+  width: 20rem;
+  background-color: #33f3aa;
+  outline: none;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 19px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: block;
+  margin: auto;
+  font-weight: 900;
+  border-radius: 5rem;
+}
+
+.circles {
+  display: flex;
+  justify-content: space-between;
+  width: 28rem;
+  margin: auto;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.circles div {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.circles div:nth-child(1) {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #1e6664;
+}
+
+.circles div:nth-child(2) {
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: #1e6664;
+}
+
+.circles div:nth-child(3) {
+  width: 2rem;
+  height: 2rem;
+  background-color: #1e6664;
+}
+
+.circles div:nth-child(4) {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #33f3aa;
+}
+
+.circles div:nth-child(5) {
+  width: 2rem;
+  height: 2rem;
+  background-color: #1e6664;
+}
+
+.circles div:nth-child(6) {
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: #1e6664;
+}
+
+.circles div:nth-child(7) {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #1e6664;
+}
+
+@media (max-width: 700px) {
+  .btnDiv {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .cards img {
+    width: 20rem;
+  }
+
+  .btn {
+    width: 20rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+    padding-top: 13px;
+  }
+}

@@ -1,0 +1,38 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  background: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000000000000000000;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.logo {
+  width: 10rem;
+  margin-top: 5px;
+}
+
+.icon {
+  font-size: 3rem;
+  position: relative;
+  top: 8px;
+}
+
+.links {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.links li {
+  margin-top: 2rem;
+}

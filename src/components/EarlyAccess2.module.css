@@ -1,0 +1,153 @@
+.container {
+  background: url("../../public/Backgrounds/6.png");
+  background-size: 100% 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  align-items: center;
+}
+
+.img {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+  margin-right: 10rem;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.right {
+  margin-top: -12rem;
+}
+
+.right > span {
+  font-size: 5rem;
+  display: inline-block;
+  padding-bottom: 4rem;
+  color: #33f3aa;
+  font-weight: 900;
+}
+
+.right div {
+  display: flex;
+}
+
+.right > div > input {
+  width: 30rem;
+  background-color: white;
+  outline: none;
+  color: #000000;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+  padding-left: 2rem;
+  border: none;
+  border-top-left-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+}
+
+.right > div > button {
+  width: 12rem;
+  background-color: #33f3aa;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 900;
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+
+.right > div > input::placeholder {
+  color: #000000;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 1330px) {
+  .img {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 1178px) {
+  .img {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .container {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .right div {
+    margin-bottom: 4rem;
+  }
+  .right > div > input {
+    width: 70%;
+    margin-right: 1rem;
+    border-radius: 0.8rem;
+  }
+  .right {
+    width: 100%;
+    margin-top: 0rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .right > div > button {
+    width: 30%;
+    border-radius: 0.8rem;
+  }
+  .img {
+    width: 100%;
+    margin-left: 0rem;
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .right > span {
+    font-size: 3rem;
+  }
+  .right > div > input {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+  }
+
+  .right > div > button {
+    font-size: 1.5rem;
+  }
+
+  .right {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .right > span {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+}
