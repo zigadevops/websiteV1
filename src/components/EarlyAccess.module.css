@@ -1,5 +1,5 @@
 .container {
-  background: url("../../public/Backgrounds/2.png");
+  background: url("../../public/Backgrounds/2.jpg");
   background-size: cover;
   background-attachment: fixed !important;
 }
@@ -162,6 +162,11 @@
   }
   .mob {
     display: block;
+  }
+
+  .container {
+    background: url("../../public/Backgrounds/2-mob.jpg");
+    background-attachment: unset !important;
   }
 }
 
