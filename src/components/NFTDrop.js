@@ -7,17 +7,17 @@ const NFTDrop = () => {
         <img className={classes.img} src='/Monsters/monster2.png' alt='' />
       </div>
       <div className={classes.comingSoon}>
+        <div className={classes.comingSoonInnerBox}>
         <h2>
           ZigaMonsters <br /> NFT Drop #1
         </h2>
         <p>More information will come soon...</p>
-        <div className={classes.comingSoonInnerBox}>
-          <p>Coming Soon</p>
+          {/* <p>Coming Soon</p>
           <div>
             {" "}
             <p>TIME LEFT UNTIL NFT DROP</p>
             <span>STARTING SOON</span>
-          </div>
+          </div> */}
           <button className={classes.btn}>COMING SOON</button>
         </div>
       </div>

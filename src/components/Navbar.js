@@ -10,13 +10,13 @@ const navbarData = [
     name: "About",
     index: 0,
     innerChild: [
-      { name: "Lore", link: "https://lore.zigamonsters.com/" },
-      { name: "Whitepaper", link: "https://whitepaper.zigamonsters.com/" },
+      { name: "Lore", link: "https://story.zigamonsters.com" },
+      { name: "Whitepaper", link: "https://white-paper.zigamonsters.com/ " },
       { name: "Pitchdeck", link: "https://zigamonsters.com/promoslides" },
     ],
     isComingSoon: false,
   },
-  { name: "Zigadex", index: 1, isComingSoon: true },
+  { name: "Zigadex", index: 1, link: "https://zigadex.zigamonsters.com " },
   { name: "Roadmap", index: 2, isComingSoon: false, link: "#roadmap" },
   {
     name: "Contact",
@@ -48,29 +48,35 @@ const Navbar = () => {
             className={classes.hamburger}
           />
           <div className={classes.images}>
+
+          <a href="https://twitter.com/zigamonsters" target="_blank">
+
             <img
-              onClick={() => router.push("https://twitter.com/zigamonsters")}
+              // onClick={() => router.push("https://twitter.com/zigamonsters")}
               src='/SVGIcons/twittermenubar.svg'
               alt=''
             />
+          </a>
+
+          <a href="https://linktr.ee/zigamonsters" target="_blank">
+
             <img
-              onMouseOver={() => (comingSoon2.current.style.display = "block")}
-              onMouseOut={() => (comingSoon2.current.style.display = "none")}
+            
               src='/SVGIcons/discordmenubar.svg'
               alt=''
             />
-            <span className={classes.comingSoon2} ref={comingSoon2}>
-              Coming Soon
-            </span>
+            
+          </a>
+
+          <a href="https://linktr.ee/zigamonsters" target="_blank">
+
+   
             <img
-              onMouseOver={() => (comingSoon3.current.style.display = "block")}
-              onMouseOut={() => (comingSoon3.current.style.display = "none")}
+             
               src='/SVGIcons/telegrammenubar.svg'
               alt=''
             />
-            <span className={classes.comingSoon3} ref={comingSoon3}>
-              Coming Soon
-            </span>
+           </a>
           </div>
         </ul>
       </nav>

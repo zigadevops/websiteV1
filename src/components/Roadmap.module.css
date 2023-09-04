@@ -9,24 +9,24 @@
   transition: height 0.5s;
 }
 .box2 {
-  height: 20rem !important;
+  height: 32rem !important;
   transition: height 0.5s;
 }
 .box3 {
-  height: 26rem !important;
+  height: 32rem !important;
   transition: height 0.5s;
 }
 .box4 {
-  height: 26rem !important;
+  height: 32rem !important;
   transition: height 0.5s;
 }
 .box5 {
-  height: 20rem !important;
+  height: 32rem !important;
   transition: height 0.5s;
 }
 
 .ui {
-  height: 6rem;
+  height: 6.6rem;
   overflow-y: hidden;
   transition: height 0.5s;
 }
@@ -89,6 +89,8 @@
   border-radius: 3rem;
   box-sizing: border-box;
   cursor: pointer;
+  min-width: 30px;
+  min-height: 30px;
 }
 
 .container > div {
@@ -120,8 +122,12 @@
   .container > div > h1 {
     font-size: 3rem;
   }
+
+  .heading {
+    gap: 10px;
+  }
   .ui {
-    height: 5rem;
+    height: 6.5rem;
     transition: height 0.5s;
     overflow-y: hidden;
   }

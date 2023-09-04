@@ -36,12 +36,14 @@ const Cards = () => {
       </div>
 
       <div className={classes.btnDiv}>
+        <a href="https://zigadex.zigamonsters.com" target="_blank">
         <button
           className={classes.btn}
-          onMouseOver={() => (comingSoonRef.current.style.opacity = "1")}
-          onMouseOut={() => (comingSoonRef.current.style.opacity = "0")}>
+          >
           EXPLORE ZIGADEX
         </button>
+
+        </a>
         <div className={classes.comingSoon} ref={comingSoonRef}>
           Coming Soon
         </div>

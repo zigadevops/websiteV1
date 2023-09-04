@@ -1,5 +1,5 @@
 .container {
-  background: url("../../public/Backgrounds/6.png");
+  background: url("../../public/Backgrounds/6.jpg");
   background-size: 100% 100%;
   display: flex;
   background-repeat: no-repeat;
@@ -34,6 +34,9 @@
 
 .right {
   margin-top: -12rem;
+  background-color: #00000080;
+  padding: 5rem;
+  border-radius: 1rem;
 }
 
 .right > span {
@@ -128,6 +131,15 @@
   .right > span {
     font-size: 3rem;
   }
+
+  .left {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  .container {
+    background: url("../../public/Backgrounds/6-mob.png");
+  }
   .right > div > input {
     font-size: 1.5rem;
   }
@@ -141,9 +153,14 @@
     font-size: 1.5rem;
   }
 
+  .right div {
+    margin-bottom: 0;
+  }
+
   .right {
     padding-left: 2rem;
     padding-right: 2rem;
+    width: 90%;
   }
 
   .right > span {

@@ -11,19 +11,28 @@ const Footer = () => {
         </div>
         <div className={classes.right}>
           <div className={classes.images}>
+            <a href='https://instagram.com/zigamonsters' target='_blank'>
+            
             <img title='Coming Soon' src='/SVGIcons/ft1.svg' alt='' />
+
+            </a>
             <a href='https://twitter.com/zigamonsters' target='_blank'>
               <img src='/SVGIcons/ft2.svg' alt='' />
             </a>
-            <img title='Coming Soon' src='/SVGIcons/ft3.svg' alt='' />
+
+            <a href="https://linktr.ee/zigamonsters" target='_blank'>
+            <img title='Coming Soon' src='/SVGIcons/ft3.svg' alt=''  />
+            </a>
+            <a href="https://linktr.ee/zigamonsters" target='_blank'>
             <img title='Coming Soon' src='/SVGIcons/ft4.svg' alt='' />
+            </a>
           </div>
           <div className={classes.uldiv}>
             <ul>
               <Link href='#navbar'>
                 <li> About&nbsp;|&nbsp;</li>{" "}
               </Link>
-              <Link href='#navbar'>
+              <Link href='https://zigadex.zigamonsters.com '>
                 <li> Zigadex&nbsp;|&nbsp;</li>
               </Link>
               <Link href='#roadmap'>
@@ -36,7 +45,7 @@ const Footer = () => {
               <Link href='#contact'>
                 <li> Contact&nbsp;|&nbsp;</li>
               </Link>
-              <Link href='https://whitepaper.zigamonsters.com/'>
+              <Link href='https://white-paper.zigamonsters.com/ '>
                 <li> Whitepaper&nbsp;|&nbsp;</li>
               </Link>
               <Link href='https://zigamonsters.com/promoslides'>

@@ -27,6 +27,7 @@
   opacity: 0.99;
   background: #11999570;
   border-radius: 1rem;
+  max-width: 610px;
 }
 
 .comingSoon {

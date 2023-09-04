@@ -1,5 +1,5 @@
 .container {
-  background: url("../../public/Backgrounds/3.png");
+  background: url("../../public/Backgrounds/3.jpg");
   background-size: cover;
   width: 100%;
   height: 87rem;
@@ -39,14 +39,16 @@
 
 .comingSoon {
   padding-right: 10rem;
+  display: flex;
+  align-items: center;
 }
 
 .comingSoon > div {
-  position: relative;
+  /* position: relative; */
   opacity: 0.99;
   height: 25rem;
-  position: relative;
-  left: -4.5rem;
+  /* position: relative;
+  left: -4.5rem; */
 }
 
 .comingSoonInnerBox > p {
@@ -64,18 +66,19 @@
 }
 
 .comingSoon > div {
-  height: 26.5rem;
+  height: 39.5rem;
   width: 46rem;
-  background-color: #00000080;
+  background-color: #000000d6;
   border-radius: 1rem;
 }
 
-.comingSoon > h2 {
+.comingSoonInnerBox > h2 {
   font-size: 5rem;
   text-align: center;
   color: #33f3aa;
-  margin-right: 8rem;
-  padding-top: 96px;
+  font-weight: 800;
+  /* margin-right: 8rem; */
+  /* padding-top: 96px; */
   margin-bottom: 0rem;
 }
 
@@ -103,6 +106,10 @@
   margin-bottom: 0rem;
 }
 
+.comingSoonInnerBox p {
+  font-weight: 400;
+}
+
 .comingSoonInnerBox > div > span {
   color: #33f3aa;
   font-size: 2.5rem;
@@ -123,6 +130,7 @@
   font-weight: 800;
   display: block;
   margin: auto;
+  margin-top: 11rem;
 }
 
 @media (max-width: 1365px) {
@@ -145,6 +153,7 @@
   .comingSoonInnerBox p {
     margin-top: 0rem;
     padding-top: 0rem;
+    font-weight: 400;
   }
 
   .comingSoon > p {
@@ -178,11 +187,26 @@
   }
 }
 
+@media (max-width: 991px) {
+  .comingSoon > div {
+    height: 37.5rem;
+    margin-top: 2rem;
+  }
+  .comingSoonInnerBox p {
+    font-size: 1.6rem;
+    transform: translateY(20px);
+  }
+}
+
 @media (max-width: 690px) {
   .img {
     width: 100%;
     overflow: hidden;
     padding-left: 0rem;
+  }
+
+  .comingSoonInnerBox > h2 {
+    font-size: 3rem;
   }
 }
 
@@ -193,6 +217,7 @@
 
   .comingSoon > div {
     width: 90% !important;
+    height: 30.5rem;
   }
 
   .comingSoon > h2 {

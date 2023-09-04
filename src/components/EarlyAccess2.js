@@ -3,7 +3,7 @@ import classes from "./EarlyAccess2.module.css";
 const EarlyAccess2 = () => {
   return (
     <div className={classes.container} id='contact'>
-      <div>
+      <div className={classes.left}>
         <img className={classes.img} src='/Monsters/monster3.png' alt='' />
       </div>
       <div className={classes.right}>
