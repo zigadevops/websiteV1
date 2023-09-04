@@ -25,10 +25,10 @@ const MobileNavbar = ({ setIsMobileNavbarShown }) => {
         </li>
         {openBox === "about" && (
           <ul>
-            <a href='https://lore.zigamonsters.com/'>
+            <a href='https://story.zigamonsters.com'>
               <li>Lore</li>
             </a>
-            <a href='https://whitepaper.zigamonsters.com/'>
+            <a href='https://white-paper.zigamonsters.com/'>
               <li>Whitepaper</li>
             </a>
             <a href='https://zigamonsters.com/promoslides'>
@@ -36,14 +36,18 @@ const MobileNavbar = ({ setIsMobileNavbarShown }) => {
             </a>
           </ul>
         )}
-        <li
+
+          <a href='https://zigadex.zigamonsters.com '>
+            <li>Zigadex</li>
+          </a>
+        {/* <li
           onClick={() => {
             openBox === "comingsoon"
               ? setOpenBox("")
               : setOpenBox("comingsoon");
           }}>
           Zigadex
-        </li>
+        </li> */}
         {openBox === "comingsoon" && (
           <ul>
             <li style={{ listStyleType: "none", fontSize: "1.5rem" }}>
@@ -54,7 +58,7 @@ const MobileNavbar = ({ setIsMobileNavbarShown }) => {
         <a href='#roadmap'>
           <li onClick={() => setIsMobileNavbarShown(false)}>Roadmap</li>
         </a>
-        <a href='contact'>
+        <a href='#contact'>
           <li onClick={() => setIsMobileNavbarShown(false)}>Contact</li>
         </a>
       </ul>

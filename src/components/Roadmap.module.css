@@ -132,26 +132,26 @@
     overflow-y: hidden;
   }
   .box1 {
-    height: 23.5rem !important;
+    height: 28rem !important;
     transition: height 0.5s;
   }
 
   .box2 {
-    height: 18rem !important;
+    height: 32rem !important;
     transition: height 0.5s;
   }
 
   .box3 {
-    height: 23.5rem !important;
+    height: 32rem !important;
     transition: height 0.5s;
   }
 
   .box4 {
-    height: 23.5rem !important;
+    height: 32rem !important;
     transition: height 0.5s;
   }
   .box5 {
-    height: 18rem !important;
+    height: 32rem !important;
     transition: height 0.5s;
   }
 
