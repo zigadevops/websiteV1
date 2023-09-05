@@ -211,6 +211,10 @@
     font-size: 3rem;
     padding-bottom: 2rem;
   }
+
+  .right button {
+    min-width: 80px !important;
+  }
 }
 
 @media (max-width: 400px) {

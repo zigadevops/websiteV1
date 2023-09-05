@@ -51,8 +51,8 @@ const Header = () => {
             Coming Soon
           </div>
         </div>
-        <div>
-          <img className={classes.img} src="/Monsters/hero.png" alt="" />
+        <div className={classes.heroImg}>
+          <img className={classes.img} src="/Monsters/hero-image.png" alt="" />
         </div>
       </div>
     </div>

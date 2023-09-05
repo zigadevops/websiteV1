@@ -57,7 +57,7 @@
 
 .img {
   width: 90%;
-  position: relative;
+  /* position: relative; */
   /* top: -4rem;
   left: 2rem; */
   bottom: 0;
@@ -94,8 +94,8 @@
 
 @media (max-width: 1287px) {
   .img {
-    left: -5rem;
-    top: -2rem;
+    /* left: -5rem;
+    top: -2rem; */
     width: 105%;
   }
 }
@@ -177,4 +177,12 @@
   .content div:nth-child(1) p {
     font-size: 1.1rem;
   }
+}
+
+.heroImg {
+  display: flex;
+}
+
+.heroImg .img {
+  margin-left: auto;
 }
