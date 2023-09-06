@@ -11,12 +11,12 @@ const Footer = () => {
         </div>
         <div className={classes.right}>
           <div className={classes.images}>
-            <a href='https://instagram.com/zigamonsters' target='_blank'>
+            <a href='https://linktr.ee/zigamonsters' target='_blank'>
             
             <img title='Coming Soon' src='/SVGIcons/ft1.svg' alt='' />
 
             </a>
-            <a href='https://twitter.com/zigamonsters' target='_blank'>
+            <a href='https://linktr.ee/zigamonsters' target='_blank'>
               <img src='/SVGIcons/ft2.svg' alt='' />
             </a>
 
