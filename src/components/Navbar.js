@@ -49,7 +49,7 @@ const Navbar = () => {
           />
           <div className={classes.images}>
 
-          <a href="https://linktr.ee/zigamonsters" target="_blank">
+          <a href="https://links.zigamonsters.com" target="_blank">
 
             <img
               // onClick={() => router.push("https://twitter.com/zigamonsters")}
@@ -58,7 +58,7 @@ const Navbar = () => {
             />
           </a>
 
-          <a href="https://linktr.ee/zigamonsters" target="_blank">
+          <a href="https://links.zigamonsters.com" target="_blank">
 
             <img
             
@@ -68,7 +68,7 @@ const Navbar = () => {
             
           </a>
 
-          <a href="https://linktr.ee/zigamonsters" target="_blank">
+          <a href="https://links.zigamonsters.com" target="_blank">
 
    
             <img
