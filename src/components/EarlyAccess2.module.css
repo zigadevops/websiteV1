@@ -142,6 +142,7 @@
   }
   .right > div > input {
     font-size: 1.5rem;
+    max-width: calc(100% - 100px);
   }
 
   .container {
