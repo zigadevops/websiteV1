@@ -52,7 +52,11 @@ const Header = () => {
           </div>
         </div>
         <div className={classes.heroImg}>
-          <img className={classes.img} src="/Monsters/hero-image.png" alt="" />
+          <img
+            className={classes.img}
+            src="/Monsters/ziga-hero-image.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
